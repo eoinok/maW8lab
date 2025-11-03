@@ -9,9 +9,10 @@ This lab guides you step-by-step through creating a Firebase project, registerin
 > - `firestore.indexes.json`
 > - `package.json`, `app.json` (Expo files)
 
+## Step 1 - register on Firebase
 Before proceeding visit firebase.google.com and login using your gmail/google account. If you don't already have one you'll have to create one. Once you have registered on firebase you can proceed with connecting it to your React Native App
 
-## Step 1 — Install prerequisites
+## Step 2 — Install prerequisites
 Install Expo CLI (optional but recommended) and the Firebase CLI.
 
 ```
@@ -22,7 +23,7 @@ install the Firebase CLI
 npm install -g firebase-tools
 ```
 
-## Step 2 -- Login to Firebase type the following on the CLI of your repo
+## Step 3 -- Login to Firebase type the following on the CLI of your repo
 
 ```
 firebase login
@@ -31,7 +32,7 @@ A web broswer will open so that you can enter your google credentials and login 
 ``` 
 firebase login list
 ```
-## Step 3 — Create a new Firebase project
+## Step 4 — Create a new Firebase project
 Create a project using a globally unique project ID (lowercase, letters/numbers/hyphens only).
 ``` 
 firebase projects:create <project-id> --display-name "<Display Name>"
@@ -40,7 +41,7 @@ Set the created project as the default for this folder:
 ``` 
 firebase use <project-id>
 ```
-## Step 4
+## Step 5
 Create a Web app entry inside the Firebase project (this produces an App ID):
 ``` 
 firebase apps:create web "<App Name>" --project <project-id>
@@ -50,7 +51,7 @@ THe following command lists all your projects, you should see only the project y
 firebase projects:list
 ```
 
-## Step 5
+## Step 6
 Use the App ID (format 1:...:web:...) to print the SDK configuration. ***Do not use the project ID here.***
 ``` 
 firebase apps:sdkconfig web <app-id>
