@@ -58,4 +58,12 @@ firebase apps:sdkconfig web <app-id>
 ```
 Copy the printed firebaseConfig object and paste it into firestoreConfig.js where the placeholder comment is:
 
+## Step 7
+Run your react native project from the command line by typing
+```
+npx expo start
+```
+Choose ***w*** from the list of menu alternatives to run your project in local web mode
+
+add a username and email and click on the button to save your data to firebase
 
