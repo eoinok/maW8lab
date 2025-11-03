@@ -49,7 +49,7 @@ firebase use <project-id>
 ```
 
 ## Step 6
-Change the .firebaserc file in your project folder to include the correct projectid
+Change the .firebaserc file in your project folder to reflect the correct projectid
 
 ## Step 7
 Create a Web app entry inside the Firebase project (this produces an App ID):
