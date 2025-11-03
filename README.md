@@ -9,6 +9,7 @@ This lab guides you step-by-step through creating a Firebase project, registerin
 > - `firestore.indexes.json`
 > - `package.json`, `app.json` (Expo files)
 
+Before proceeding visit firebase.google.com and login using your gmail/google account. If you don't already have one you'll have to create one. Once you have registered on firebase you can proceed with connecting it to your React Native App
 
 ## Step 1 — Install prerequisites
 Install Expo CLI (optional but recommended) and the Firebase CLI.
@@ -26,7 +27,7 @@ npm install -g firebase-tools
 ```
 firebase login
 ```
-confrm login by typing
+A web broswer will open so that you can enter your google credentials and login to firebase. Confrm login by typing
 ``` 
 firebase login list
 ```
