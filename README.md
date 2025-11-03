@@ -23,26 +23,37 @@ npm install -g firebase-tools
 
 ## Step 2 -- Login to Firebase type the following on the CLI of your repo
 
-``` firebase login ```
-
+```
+firebase login
+```
 confrm login by typing
-``` firebase login list ```
-
+``` 
+firebase login list
+```
 ## Step 3 — Create a new Firebase project
 Create a project using a globally unique project ID (lowercase, letters/numbers/hyphens only).
-``` firebase projects:create <project-id> --display-name "<Display Name>" ```
+``` 
+firebase projects:create <project-id> --display-name "<Display Name>"
+```
 Set the created project as the default for this folder:
-``` firebase use <project-id> ```
-
+``` 
+firebase use <project-id>
+```
 ## Step 4
 Create a Web app entry inside the Firebase project (this produces an App ID):
-``` firebase apps:create web "<App Name>" --project <project-id> ```
+``` 
+firebase apps:create web "<App Name>" --project <project-id>
+```
 THe following command lists all your projects, you should see only the project you've just create in the list
-``` firebase projects:list ```
+``` 
+firebase projects:list
+```
 
 ## Step 5
 Use the App ID (format 1:...:web:...) to print the SDK configuration. ***Do not use the project ID here.***
-``` firebase apps:sdkconfig web <app-id> ```
+``` 
+firebase apps:sdkconfig web <app-id>
+```
 Copy the printed firebaseConfig object and paste it into firestoreConfig.js where the placeholder comment is:
 
-## 
+
