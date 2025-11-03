@@ -1,4 +1,5 @@
 This lab guides you step-by-step through creating a Firebase project, registering a Web app, creating Firestore rules/indexes, obtaining the `firebaseConfig` object, and running the provided Expo app which writes to Firestore.
+The app departs from the approach of using Expo Snacks used in previous labs. This project will be completed using vscode and executing commands on the command line.
 
 > **Prerequisite:** The starter repo already contains these files:
 > - `App.js`
