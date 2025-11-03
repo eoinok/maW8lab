@@ -33,9 +33,9 @@ A web broswer will open so that you can enter your google credentials and login 
 firebase login list
 ```
 ## Step 4 — Create a new Firebase project
-Create a project using a globally unique project ID (lowercase, letters/numbers/hyphens only). Replace <project-id> and "<Display Name>" with your chose project id and name
+Create a project using a globally unique project ID (lowercase, letters/numbers/hyphens only). Replace ***project-id*** and ***"Display Name"*** with your chose project id and name (drop the angled brackets)
 ``` 
-firebase projects:create ***<project-id>*** --display-name ***"<Display Name>"***
+firebase projects:create <project-id> --display-name "<Display Name>"
 ```
 Set the created project as the default for this folder:
 ``` 
