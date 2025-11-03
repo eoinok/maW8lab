@@ -67,3 +67,7 @@ Choose ***w*** from the list of menu alternatives to run your project in local w
 
 add a username and email and click on the button to save your data to firebase
 
+Go to http://console.firebase.google.com
+
+Under projects and workspaces, click on your project id. Under project shortcuts select Firestore Database. Look in the users collection and see if any data has been added. If everything worked correctly your app is saving data to your firestore database in the cloud.
+
