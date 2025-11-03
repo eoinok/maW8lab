@@ -13,10 +13,13 @@ This lab guides you step-by-step through creating a Firebase project, registerin
 ## Step 1 — Install prerequisites
 Install Expo CLI (optional but recommended) and the Firebase CLI.
 
-```npm install -g expo-cli```
-
+```
+npm install -g expo-cli
+```
 install the Firebase CLI
-```npm install -g firebase-tools```
+```
+npm install -g firebase-tools
+```
 
 ## Step 2 -- Login to Firebase type the following on the CLI of your repo
 
