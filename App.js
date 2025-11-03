@@ -9,14 +9,15 @@ export default function App() {
 
   const handleSubmit = async () => {
     if (!name || !email) {
-      Alert.alert("Error", "Please fill in both fields");
+      //Alert.alert("Error", "Please fill in both fields");
+      alert("Please fill in both fields");
       return;
     }
 
     try {
       await addDoc(collection(db, "users"), { name, email });
       //Alert.alert("Success", "Data saved!");
-      alert("Data saved successfully");
+      alert("Data saved successfully"); 
       setName("");
       setEmail("");
     } catch (error) {
