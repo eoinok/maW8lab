@@ -15,12 +15,14 @@ export default function App() {
 
     try {
       await addDoc(collection(db, "users"), { name, email });
-      Alert.alert("Success", "Data saved!");
+      //Alert.alert("Success", "Data saved!");
+      alert("Data saved successfully");
       setName("");
       setEmail("");
     } catch (error) {
       console.error(error);
-      Alert.alert("Error", "Could not save data");
+      //Alert.alert("Error", "Could not save data");
+      alert("Error saving data");
     }
   };
 
